@@ -1,12 +1,3 @@
 # todolist
-Project Root
-└── app
-    ├── add.php              // Handle add new todo events
-    ├── check.php            // Handle checkboxes events 
-    └── remove.php           // Handle remove todo events 
-└── css      
-    └── index.css            // Base styles. Styles placed here should be available anywhere in the application     
-└── js
-    └── jquery-3.2.1.min.js  // JavaScript library used for eventhandling in this project 
-└── db_connect.php           // Open a conenction to the local MYSQL server
-└── index.php 
+<img width="823" alt="Screen Shot 2022-12-08 at 10 33 46 pm" src="https://user-images.githubusercontent.com/98025518/206473491-d5e1674b-1c64-4f35-8fdd-18c941a499f5.png">
+
