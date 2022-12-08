@@ -9,7 +9,6 @@ todoForm.addEventListener("submit", function (event) {
 });
 
 function addTodo(item) {
-
     if (item !== "") {
     const todo = {
         id: Date.now(),

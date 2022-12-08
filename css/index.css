@@ -1,3 +1,14 @@
+/*-------------------------------------------*\
+                    index.css
+----------------------------------------------
+Index
+- Body 
+- Form
+- Displayed Items 
+\*-------------------------------------------*/
+/*---------------------------------------------
+                BODY, TYPOGRAPHY
+----------------------------------------------*/
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +24,17 @@ body {
     color: black;
 }
 
+.container {
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/*---------------------------------------------
+                BUTTONS
+----------------------------------------------*/
 button:hover {
     cursor: pointer;
     background-color: #b8c1ec;
@@ -22,20 +44,16 @@ ul {
     list-style-type: none;
 }
 
-.container {
-    min-width: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
 h1 {
     padding-top: 60px;
     color: #fffffe;
     font-size: 3rem;
     Font-Family: 'Roboto', Sans-Serif;
 }
+
+/*---------------------------------------------
+                    FORM
+----------------------------------------------*/
 
 .todo-form {
     margin: 40px 0px;
@@ -61,6 +79,18 @@ h1 {
     font-size: 1.2rem;
 }
 
+.check-box {
+    margin-right: 10px;
+}
+
+
+.checked {
+    text-decoration: line-through;
+}
+
+/*---------------------------------------------
+                DISPLAYED ITEMS
+----------------------------------------------*/
 .todo-items {
     min-width: 350px;
 }
@@ -81,10 +111,6 @@ h1 {
     border-bottom-right-radius: 7px;
 }
 
-.checkbox {
-    margin-right: 10px;
-}
-
 .delete-button {
     float: right;
     background-color: #eebbc3;
@@ -97,6 +123,6 @@ h1 {
     font-weight: 550;
 }
 
-.checked {
-    text-decoration: line-through;
-}
+/*---------------------------------------------
+                END OF CSS
+----------------------------------------------*/
